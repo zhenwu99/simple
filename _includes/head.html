@@ -19,6 +19,10 @@
   {% capture page_title %}
       {{ page_title | strip | rstrip | lstrip | escape | strip_newlines }}
   {% endcapture %}
+  
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
   <title>{{ page_title }}</title>
 
@@ -96,4 +100,24 @@
   {% endif %}
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
+  <script type="text/javascript">
+  function show_talk()
+  {
+    var r=confirm("     若点确定将会打开Tencent QQ。" + '\n'+ '\n'+"     你真的想联系我吗？");
+    if (r==true)
+      {
+      alert("部分浏览器可能会拦截弹出网页,允许即可ヾ(≧▽≦*)o");
+      }
+    else
+      {
+      window.location.href='index.html';
+      }
+  }
+</script>
+ <!--看板娘-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Live2D</title>
+<link rel="stylesheet" type="text/css" href="/assets/live2d/waifu1.css"/>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
 </head>
