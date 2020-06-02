@@ -3,7 +3,7 @@ title_left    : "吴臻"
 title_right   : "の博客" # default: ""
 description   : "分享新鲜事儿"
 keywords      : "吴臻, blog, web, minimalist, thinkspace"
-url           : https://zhenwu99.github.io/jian # site url
+url           : https://zhenwu99.github.io/ # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
