@@ -19,10 +19,9 @@
   {% capture page_title %}
       {{ page_title | strip | rstrip | lstrip | escape | strip_newlines }}
   {% endcapture %}
-    <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!--图标-->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">  <!--在网页标题左侧显示图标-->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">  <!--在收藏夹显示图标-->
 
   <title>{{ page_title }}</title>
 
