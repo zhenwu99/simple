@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+我现在什么都不想说(blah..blah..blah..)

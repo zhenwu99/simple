@@ -1,9 +1,9 @@
 # Site settings
-title_left    : "Think"
-title_right   : "space" # default: ""
-description   : "Minimalist Jekyll theme for technical writing blog."
-keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url           : https://heiswayi.github.io/thinkspace # site url
+title_left    : "吴臻"
+title_right   : "の博客" # default: ""
+description   : "分享新鲜事儿"
+keywords      : "吴臻, blog, web, minimalist, thinkspace"
+url           : https://zhenwu99.github.io/jian # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "John Doe"
+  name     : "Wu Zhen"
 
 plugins:
   - jekyll-sitemap
@@ -38,10 +38,10 @@ plugins:
 # navbar pages
 navbar:
   - slug : about
-    title: About
+    title: 关于
   - slug : blog
-    title: Blog
-
+    title: 博客
+    
 exclude:
   - "gulp"
   - "node_modules"
