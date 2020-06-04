@@ -295,7 +295,8 @@ var waifuJson = {
             "text": ["要去大佬们的家看看吗？"]
         },
         {
-            "selector": "#navbar-page-34",
+		//"selector": "#navbar-page-34",
+            "selector": ".call",
             "text": ["有什么想说的吗？"]
         },
         {
