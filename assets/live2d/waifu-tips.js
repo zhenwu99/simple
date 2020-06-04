@@ -190,6 +190,14 @@ var waifuJson = {
             "selector": ".logo",
             "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦"]
         },
+	{
+            "selector": ".tags",
+            "text": ["系统可以根据标签，清晰地将文章归类，更精准的推荐给你哦"]
+        },
+        {
+            "selector": ".categories",
+            "text": ["看看主人都写了些什么吧"]
+        },
         {
             "selector": ".social-share",
             "text": ["觉得文章有帮助的话，可以分享给更多需要的朋友呢"]
