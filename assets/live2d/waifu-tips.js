@@ -182,7 +182,8 @@ function hideMessage(timeout){
 var waifuJson = {
     "mouseover": [
         {
-            "selector": ".content-wrap a[href^='http']",
+		            //"selector": ".content-wrap a[href^='http']",
+            "selector": ".post-link",
             "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"]
         },
         {
@@ -294,8 +295,7 @@ var waifuJson = {
             "text": ["要去大佬们的家看看吗？"]
         },
         {
-            //"selector": "#navbar-page-34",
-	    "selector": ".call",
+            "selector": "#navbar-page-34",
             "text": ["有什么想说的吗？"]
         },
         {
