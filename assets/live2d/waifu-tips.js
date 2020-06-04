@@ -1,4 +1,4 @@
-﻿String.prototype.render = function (context) {
+String.prototype.render = function (context) {
     var tokenReg = /(\\)?\{([^\{\}\\]+)(\\)?\}/g;
 
     return this.replace(tokenReg, function (word, slash1, token, slash2) {
@@ -80,7 +80,8 @@ function waifuWelcome(){
     var SiteIndexUrl = 'https://zhenwu99.github.io/';  // 手动指定主页
     //var SiteIndexUrl = window.location.protocol+'//'+window.location.hostname+'/';  // 自动获取主页
 
-    if (window.location.href == SiteIndexUrl) {      // 如果是主页
+    //if (window.location.href == SiteIndexUrl) {      // 如果是主页
+	if (window.location.href == 'https://zhenwu99.github.io/simple/') {      // 如果是该页
         var now = (new Date()).getHours();
         if (now > 23 || now <= 5) {
             text = '你是夜猫子呀？这么晚还不睡觉，明天起的来嘛';
@@ -124,7 +125,7 @@ function waifuWelcome(){
     showMessage(text, 6000);
 }
 
-//window.hitokotoTimer = window.setInterval(showHitokoto,30000);
+window.hitokotoTimer = window.setInterval(showHitokoto,30000);
 /* 检测用户活动状态，并在空闲时 定时显示一言 */
 var getActed = false;
 window.hitokotoTimer = 0;
@@ -217,7 +218,7 @@ var waifuJson = {
             "text": ["要吐槽些什么呢？"]
         },
         {
-            "selector": ".rollto",
+            "selector": ".home",
             "text": ["回到开始的地方吧"]
         },
         {
