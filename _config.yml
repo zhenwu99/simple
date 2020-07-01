@@ -1,6 +1,6 @@
 # Site settings
 title_left    : "吴臻"
-title_right   : "の后花园" # default: ""
+title_right   : "の分站" # default: ""
 description   : "分享新鲜事儿"
 keywords      : "吴臻, blog, web, minimalist, thinkspace"
 url           : https://zhenwu99.github.io/simple # site url
